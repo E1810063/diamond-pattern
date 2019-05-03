@@ -49,13 +49,7 @@ void main()
  s.get();
  s.dia();
 }
-output:
-3
-  *                                                                             
- * *                                                                            
-* * *                                                                           
- * *                                                                            
-  *                                                                             
+                                                                                                                                  
                                                                                 
                                                                                 
                                                                                 
