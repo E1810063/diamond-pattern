@@ -5,13 +5,17 @@ class star
 {
  private:
  int n,s;
- public:
  int i,j,k;
- void get()
- {
-  cin>>n;
- }
- void dia()
+ public:
+ void get();
+ void dia();
+ };
+void star::get()
+{
+ cout<<"enter the number of lines"<<endl;
+ cin>>n;
+}
+void star::dia()
  {
  s=n-1;
  for(i=1;i<=n;i++)
@@ -42,14 +46,17 @@ class star
     s++;
   }
  }
-};
 void main()
 {
+ clrscr();
  star s;
  s.get();
  s.dia();
+ getch();
 }
-                                                                                                                                  
+
+
+
                                                                                 
                                                                                 
                                                                                 
@@ -59,9 +66,22 @@ void main()
                                                                                 
                                                                                 
                                                                                 
+
                                                                                 
                                                                                 
                                                                                 
+
+
+
+
+
+
+
+
+
+
+
+
                                                                                 
                                                                                 
                                                                                 
